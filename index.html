@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pig</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="game">
+    <div class="scores">
+      <div class="p1 playerInfo">
+        <div class="p1Score score"></div>
+        <p>Player 1</p>
+      </div>
+      <div class="p2 playerInfo">
+        <div class="p2Score score"></div>
+        <p>Player 2</p>
+      </div>
+    </div>
+
+    <div class="turnInfo">
+      <div>
+        <p>Last roll: <span class="lastRoll" /></p>
+        <p>
+          Score for current turn: <span class="currentTurnScore"></span>
+        </p>
+      </div>
+      <div>
+        <button class="roll">Roll</button>
+        <button class="hold">Hold</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  <script src="scripts/pig.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.game {
+  width: 450px;
+  margin: 50px auto;
+}
+
+.scores {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 30px;
+}
+
+.playerInfo {
+  float: left;
+  margin: 0 5%;
+  padding: 5%;
+  width: 30%;
+}
+
+.score {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.active {
+  background: #eee;
+}
+
+.roll, .hold {
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.roll {
+  margin-right: 30px;
+}
